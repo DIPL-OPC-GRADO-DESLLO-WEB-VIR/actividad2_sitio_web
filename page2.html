@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camisas de Rick y Morty</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <a class="navbar-brand" href="#">Rick y Morty</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Camisas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Secciones de Descripción de las Camisas -->
+    <section class="container mt-5">
+      <h2>Descripción de las Camisas</h2>
+      <p>
+        ¡Las camisas de Rick y Morty son perfectas para los fans de la serie!
+        Estas camisas de alta calidad están diseñadas con los personajes y
+        elementos icónicos de la serie. Disponibles en diferentes tamaños y
+        estilos, te permiten lucir tu amor por Rick y Morty con estilo.
+      </p>
+    </section>
+    <!-- Secciones Materiales-->
+    <section class="container mt-5">
+      <h2>Materiales</h2>
+      <ul>
+        <li>Algodón suave y transpirable</li>
+        <li>Poliéster resistente y duradero</li>
+        <li>Mezcla de algodón y poliéster para mayor comodidad</li>
+        <li>Tintas de alta calidad que no se desvanecen fácilmente</li>
+      </ul>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Camisas</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-light text-white">
+            <img
+              src="img/camisas/camisa1.webp"
+              class="img-fluid"
+              alt="Camisa 2"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                Camiseta, con estampado, de rick & morty
+              </h5>
+              <!-- <p class="card-text">
+                Camiseta, para hombre, manga corta, con estampado en frente y
+                espalda, de Rick & Morty.
+              </p>
+              <p class="card-text">Last updated 3 mins ago</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light text-white">
+            <img
+              src="img/camisas/camisa2.webp"
+              class="img-fluid"
+              alt="Camisa 2"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+               Camiseta negra con estampado de rick & morty y cuello redondo
+              </h5>
+              <!-- <p class="card-text">
+                Camiseta para hombre manga corta azul medio cuenta con una
+                composición en algodón y poliéster, un diseño de Rick & Morty
+                estampado en frente, cuello redondo y una silueta ajustada al
+                torso. Esta prenda tiene un estilo divertido con el que marcarás
+                la diferencia en una salida casual con tus amigos. ¡Con una
+                bermuda y unos tenis urbanos te verás fantástico
+              </p>
+              <p class="card-text">Last updated 3 mins ago</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light text-white">
+            <img
+              src="img/camisas/camisa3.webp"
+              class="img-fluid"
+              alt="Camisa 2"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">
+                 Camiseta manga corta azul medio con estampado de rick & morty
+                Camiseta negra con estampado de rick & morty y cuello redondo
+              </h5>
+              <!-- <p class="card-text">
+                Camiseta cuello redondo negra para mujer cuenta con un diseño de
+                Rick & Morty estampado en frente, una horma ajustada al cuerpo y
+                mangas cortas. Esta prenda será ideal para cualquier ocasión
+                casual, desde una salida con tus amigos hasta tus planes
+                descomplicados de fin de semana.
+              </p> -->
+              <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Precios</h2>
+      <table class="table table-hover  table-primary">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Camiseta, con estampado, de rick & morty</td>
+            <td>$19</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Camiseta negra con estampado de rick & morty y cuello redondo</td>
+            <td>$24</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Camiseta manga corta azul medio con estampado de rick & morty</td>
+            <td>$29</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+<section class="container mt-5">
+  <h2>Más Información</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <form action="enviar_correo.php" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" class="form-control" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Información del creador</h5>
+            <p>
+              Nombre: MacDev<br />
+              Ciudad: Internet<br />
+              País: Internet
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="container">
+              <h5>Redes sociales</h5>
+              <div class="row">
+                <div class="col-2">
+                  <a href="#"
+                    ><img class="redes_sociales" src="img/facebook.png" alt=""
+                  /></a>
+                </div>
+                <div class="col-2">
+                  <a href="#"
+                    ><img class="redes_sociales" src="img/twitter.png" alt=""
+                  /></a>
+                </div>
+                <div class="col-2">
+                  <a href="#"
+                    ><img class="redes_sociales" src="img/instagram.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5>Links de Interés</h5>
+            <a
+              href="https://www.flaticon.es/iconos-gratis/facebook"
+              title="facebook iconos"
+              >Facebook iconos creados por Pixel perfect - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.es/iconos-gratis/logotipo-de-twitter"
+              title="logotipo de twitter iconos"
+              >Logotipo de twitter iconos creados por Md Tanvirul Haque -
+              Flaticon</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    </footer>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

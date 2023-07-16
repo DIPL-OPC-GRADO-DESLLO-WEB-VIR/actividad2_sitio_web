@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick y Morty</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <a class="navbar-brand" href="#">Rick y Morty</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Camisas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide bg-secondary"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/08/Ya-comenzo-la-produccion-de-la-temporada-8-de-Rick-and-Morty.jpg?resize=1280%2C720&quality=80&ssl=1"
+            class="d-block mx-auto carousel-image"
+            alt="Imagen 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/12/rick-morty-6x09-2893084.jpg?tf=1200x"
+            class="d-block mx-auto carousel-image"
+            alt="Imagen 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.blogs.es/f340be/rick-y-morty-trailer-temporada-5-1619898958/1366_2000.jpeg"
+            class="d-block mx-auto carousel-image"
+            alt="Imagen 3"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+    <!-- Secciones de contenido -->
+    <section class="container mt-5">
+      <h2>Resumen</h2>
+      <p>
+        Rick y Morty es una serie de animación para adultos que se emite en
+        Adult Swim desde 2013. Los creadores de la serie son Justin Roiland y
+        Dan Harmon, que también prestan sus voces a los personajes principales,
+        Rick Sanchez y Morty Smith. La serie se basa en las aventuras de un
+        científico loco y su nieto, que viajan por diferentes dimensiones y
+        planetas1. La fórmula general en Rick y Morty consiste en la
+        yuxtaposición de dos escenarios que confluyen. Por un lado se muestran
+        las aventuras que vive un abuelo extremadamente egoísta y alcohólico por
+        lo vasto y desconocido del espacio intergaláctico o interdimensional, el
+        cual arrastra a su nieto para que viaje con él. Por otro lado, se
+        muestra la vida cotidiana de la familia Smith, la cual está compuesta
+        por Beth (la hija de Rick), Jerry (el esposo de Beth), Summer (la hija
+        adolescente de Beth y Jerry) y Morty (el nieto de Rick)2. Espero que
+        esto te ayude.
+      </p>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Personajes</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://rickandmortyapi.com/api/character/avatar/388.jpeg"
+              class="card-img-top"
+              alt="Zeep Xanflorp"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Zeep Xanflorp</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://rickandmortyapi.com/api/character/avatar/693.jpeg"
+              class="card-img-top"
+              alt="Glockenspiel Beth"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Glockenspiel Beth</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://rickandmortyapi.com/api/character/avatar/143.jpeg"
+              class="card-img-top"
+              alt="Glasses Morty"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Glasses Morty</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <h2>Mejores Capítulos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/uMfgPabC6vg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Rick amenaza al presidente por una selfie
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/z9rKwdRpEO0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rick pone a su familia en cuarentena</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/2_7Fryr5g_U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pepinillo Rick</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Información del creador</h5>
+            <p>
+              Nombre: MacDev<br />
+              Ciudad: Internet<br />
+              País: Internet
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="container">
+              <h5>Redes sociales</h5>
+              <div class="row">
+                <div class="col-2">
+                  <a href="#"
+                    ><img class="redes_sociales" src="img/facebook.png" alt=""
+                  /></a>
+                </div>
+                <div class="col-2">
+                  <a href="#"
+                    ><img class="redes_sociales" src="img/twitter.png" alt=""
+                  /></a>
+                </div>
+                <div class="col-2">
+                  <a href="#"
+                    ><img class="redes_sociales" src="img/instagram.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h5>Links de Interés</h5>
+            <a
+              href="https://www.flaticon.es/iconos-gratis/facebook"
+              title="facebook iconos"
+              >Facebook iconos creados por Pixel perfect - Flaticon</a
+            >
+            <a
+              href="https://www.flaticon.es/iconos-gratis/logotipo-de-twitter"
+              title="logotipo de twitter iconos"
+              >Logotipo de twitter iconos creados por Md Tanvirul Haque -
+              Flaticon</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "rickymortyfuente";
+  src: url("font/get_schwifty.ttf") format("truetype");
+}
+
+h2 {
+  font-family: "rickymortyfuente", sans-serif;
+  color: rgb(41, 194, 3);
+}
+h5 {
+  font-family: "rickymortyfuente", sans-serif;
+  color: rgb(41, 194, 3);
+}
+.navbar-brand {
+  font-family: "rickymortyfuente", sans-serif;
+  color: rgb(16, 163, 231);
+}
+.redes_sociales {
+  margin-top: -5px !important;
+  width: 32px;
+  height: 32px;
+}
+img {
+  filter: blur(0.5px);
+  background-color: rgba(0, 0, 0, 0.842);
+}
+.carousel-image {
+  max-width: 100%;
+  height: 450px; /* Establece la altura deseada para las imágenes del carousel */
+  object-fit: cover; /* Ajusta la imagen para cubrir el tamaño especificado */
+}
